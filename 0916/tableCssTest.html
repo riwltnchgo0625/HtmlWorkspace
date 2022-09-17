@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>테이블 CSS 적용 연습</title>
+    <style>
+    table{
+        border-collapse:collapse;
+        width:700px;
+        height:80px;
+        text-align:center;
+    }
+
+    tr.title{
+        height:75px;
+        background-color:#165845;
+        font-weight:bold;
+        color:white;
+        font-size:16px
+    }
+
+    tr.content{
+        height:40px;
+    }
+
+    td{
+        padding:5px;
+
+    }
+
+    table,td{
+            border: solid 1px #cccccc;
+
+        }
+
+        #col1{
+            width:150px;
+        }
+
+        #col2, #col3{
+            width:72px;
+        }
+
+        .trainNum {
+            font-weight:bold;
+            color:green;
+        }
+    </style>
+</head>
+<body>
+<table border="1">
+    <tr class = "title">
+        <td id ="col1">열차번호</td>
+        <td id ="col2">출발지역</td>
+        <td id ="col3">도착지역</td>
+        <td id ="col4">출발시간</td>
+        <td id ="col5">특실</td>
+        <td id ="col6">일반실</td>
+        <td id ="col7">소요시간</td>
+    </tr>
+
+    <tr class = "content">
+        <td class="trainNum">175</td>
+        <td>서울</td>
+        <td>부산</td>
+        <td>21:00</td>
+        <td>매진</td>
+        <td>예약가능</td>
+        <td>03:45</td>
+    </tr>
+
+    <tr class = "content">
+        <td class="trainNum">177</td>
+        <td>대구</td>
+        <td>서울</td>
+        <td>9:34</td>
+        <td>예약가능</td>
+        <td>예약가능</td>
+        <td>03:50</td>
+    </tr>
+
+    <tr class = "content">
+        <td class="trainNum">178</td>
+        <td>부산</td>
+        <td>평택</td>
+        <td>5:34</td>
+        <td>매진</td>
+        <td>예약가능</td>
+        <td>02:00</td>
+    </tr>
+</table>
+</body>
+</html>

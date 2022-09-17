@@ -1,0 +1,13 @@
+
+#title span{
+    color:green;
+    font-size:30px;
+    font-weight:bold;
+
+}
+#content span{
+    color:red;
+    font-size:25px;
+    font-weight:bold;
+    text-decoration:underline;
+}

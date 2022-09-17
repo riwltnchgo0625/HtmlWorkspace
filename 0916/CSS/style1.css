@@ -1,0 +1,27 @@
+div{
+    color:pink;
+    font-size:50px;
+    text-decoration:underline;
+    text-shadow:10px 10px 20px black; /*그림자 효과*/
+    font-weight:bold;/*글씨 굵게*/
+}
+
+a:link {/*링크가 걸린 텍스트의 스타일 정의*/
+    color:gray;
+    text-decoration:none
+}
+
+a:visited{/*한번 이상 방문했던(클릭했던) 링크의 스타일 정의*/
+    color:gray;
+}
+
+
+a:hover{/*마우스 포인터가 링크걸린 텍스트위에 왔을 경우 적용되는 스타일 정의*/
+    color:black;
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+a:active{/*마우스를 클릭하는 순간에 적용되는 디자인*/
+    color:pink;
+}

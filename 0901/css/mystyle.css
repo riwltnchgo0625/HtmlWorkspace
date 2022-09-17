@@ -1,0 +1,21 @@
+h2{
+    text-align:center; /*가운데 정렬*/
+    color:#ff00ff; /*글자 색*/
+    font-size:50px; /*글자 크기*/
+    font-family:"굴림";/글꼴*/
+    font-styel:"italic";/*기울임체*/
+    font-weight:bold;/*굵게*/
+   /* text-decoration:underline; /*밑줄*/
+  /*  text-decoration:overline; /*윗줄*/
+      text-decoration:line-through; /*취소선*/
+      text-decoration-color:red;/*밑줄 색 설정*/
+      text-shadow:3px 3px 5px #000000;/*그림자 효과*/
+}
+
+a{
+    text-decoration:none;
+}
+
+p{
+    line-height:500% /*줄간격*/
+}

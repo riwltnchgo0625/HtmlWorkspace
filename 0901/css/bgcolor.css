@@ -1,0 +1,11 @@
+body{
+   background-color:#274555;
+    background-image:url("../img/flower_back.jpg");
+   /* background-repeat:no-repeat;
+    background-position:center center;/*배경이미지 정중앙*/
+
+}
+
+#chusuk{
+background-color:skyblue;
+}

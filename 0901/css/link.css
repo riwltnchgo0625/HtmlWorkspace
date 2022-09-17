@@ -1,0 +1,21 @@
+a:link{
+    color:black;
+    text-decoration:none;
+
+}/*한번도 방문하지 않은 링크의 텍스트 색 설정*/
+
+a:visited{
+    color:black;
+    text-decoration:none;
+
+}/*방문했던 링크의 텍스트 색 설정*/
+
+a:hover{
+   /* color:gray;
+    text-decoration:underline;*/
+    font-weight:bold;
+}/* 하이퍼링크에 마우스 올렸을 때*/
+
+a:active{
+    color:red;
+}/*링크 텍스트를 마우스가 클릭할 때 적용되는 디자인*/

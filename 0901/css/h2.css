@@ -1,0 +1,34 @@
+h2.title {
+
+    font-size:50px;
+    text-align:center;
+    color:black;
+    background-color:#ffffff;
+
+}
+
+h2.content {
+
+    font-size:20px;
+    text-align:left;
+    color:blue;
+
+}
+
+h3.title{
+    color:red;
+    font-size:15px;
+
+}
+
+#title{
+color:green;
+}
+
+#weather
+{
+
+color:yellow
+
+
+}

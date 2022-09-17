@@ -1,0 +1,8 @@
+li{
+ /*   list-style-type:none; 글머리 기호 없음
+      list-style-type:circle; 빈 동그라미
+      list-style-type:square; 채워진 동그라미
+ */
+
+    list-style-image:url("../img/dot_blue.gif");
+}
